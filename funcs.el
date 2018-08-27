@@ -1,4 +1,10 @@
 
+(defun spacemacs/fzf-directory ()
+  "Custom fzf-find-files.
+TODO: Kill the *fzf* buffer when leaving insert mode"
+  (interactive)
+  (fzf-directory))
+
 (defun spacemacs/fzf-find-files ()
   "Custom fzf-find-files.
 TODO: Kill the *fzf* buffer when leaving insert mode"
